@@ -23,3 +23,4 @@
   - conda/source activate <envname>
   - conda deactivate
   - python3 -m pip install package==x.x -i http://pypi.tuna.tsinghua.edu.cn/simple 在激活的虚拟环境中使用pip安装想要的库，并指定源
+  - python -m ipykernel install --user --name=xxx 想要在jupyterlab中使用对应的环境，要在该环境激活的情况下输入这行命令
