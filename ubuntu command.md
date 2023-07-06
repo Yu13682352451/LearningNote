@@ -17,6 +17,10 @@
   - 程序卡死
     - ps -ef 查看当前所有正在运行的进程
     -kill -s9 <PID> -s9表示强制执行
+  -挂载硬盘
+      - fdisk 盘符路径 进入硬盘操作
+      - mkfs.ext4 盘符路径 格式化磁盘并写入系统文件
+      - mount  盘符路径  需要挂载的路径 将磁盘挂载在某个地方
 
 # Conda操作
   - conda create -n <envname> python==x.x package==x.x ... 创建名为envname的python虚拟环境，其中python版本为x.x，同时下载库package
