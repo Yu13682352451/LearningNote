@@ -16,7 +16,7 @@
   - cp <file> <dest_file> / -r <document><dest_document>
   - 程序卡死
     - ps -ef 查看当前所有正在运行的进程
-    -kill -s9 <PID> -s9表示强制执行
+    - kill -9 <PID> -9表示强制执行
   - 挂载硬盘
       - fdisk 盘符路径 进入硬盘操作
       - mkfs.ext4 盘符路径 格式化磁盘并写入系统文件
