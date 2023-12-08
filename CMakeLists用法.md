@@ -1,0 +1,1 @@
+- 指定OpenCV版本 set(OpenCV_DIR .../build) find_package(OpenCV REQUIRED)
