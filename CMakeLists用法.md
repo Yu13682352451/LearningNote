@@ -1,2 +1,1 @@
-- 指定OpenCV版本 
-   set(OpenCV_DIR .../build) find_package(OpenCV REQUIRED) include_directories(${OpenCV_INCLUDE_DIRS})
+- 指定OpenCV版本<br> set(OpenCV_DIR .../build)<br> find_package(OpenCV REQUIRED)<br> include_directories(${OpenCV_INCLUDE_DIRS})
