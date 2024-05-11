@@ -1,3 +1,6 @@
+# 千万不要用!
+**sudo apt-get autoremove**
+
 # 常用快捷键
   - Tab： 自动补全
   - Ctrl + A：把光标移动到开头
