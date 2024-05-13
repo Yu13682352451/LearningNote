@@ -38,4 +38,4 @@
   - conda remove --name env_name --all 删除环境
 
 # CMakeLists
-  - 
+  - 指定OpenCV版本<br> set(OpenCV_DIR .../build)<br> find_package(OpenCV REQUIRED)<br> include_directories(${OpenCV_INCLUDE_DIRS})
